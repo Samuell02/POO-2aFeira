@@ -59,3 +59,4 @@ void GetAllPeople()
         Console.WriteLine($"Id: {item.Id} | Nome: {item.Name} | Fone: {item.phoneNumber} | Cidade: { city }");
     }
 }
+
