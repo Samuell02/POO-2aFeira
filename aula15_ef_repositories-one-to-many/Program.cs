@@ -59,3 +59,7 @@ void GetAllPeople()
         Console.WriteLine($"Id: {item.Id} | Nome: {item.Name} | Fone: {item.phoneNumber} | Cidade: { city }");
     }
 }
+
+var Supplier  = new Suppliers() { Id = 213, Name = "Coca Cola", Estado = "RJ", Description = "Empresa de Refrigerantes" };
+db.Add(Supplier);
+db.SaveChanges();

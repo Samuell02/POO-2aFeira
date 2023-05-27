@@ -2,9 +2,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using aula14_ef_repositories.Domain;
+using aula15_ef_repositories.Domain;
 
-namespace aula12_ef_test.Domain
+namespace aula15_ef_repositories.Domain
 {
     public class Person
     {

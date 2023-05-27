@@ -3,7 +3,7 @@ using aula12_ef_test.Domain;
 using aula14_ef_repositories.Domain;
 using Microsoft.EntityFrameworkCore;
 
-namespace aula12_ef_test.Data
+namespace aula15_ef_repositories.Data
 {
     public class DataContext : DbContext
     {
@@ -21,6 +21,8 @@ namespace aula12_ef_test.Data
         public DbSet<Person> People { get; set; }
         public DbSet<Product> Products { get; set; }
         public DbSet<City> Cities { get; set; }
+        public DbSet<Supplier> Suppliers { get; set; }
+
 
     }
 }

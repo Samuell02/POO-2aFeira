@@ -5,9 +5,14 @@ using System.Threading.Tasks;
 
 namespace aula15_ef_repositories.Domain
 {
-    public class Product
+    public class Supplier
     {
-        public int Id { get; set; }
-        public string Description { get; set; }
+        int id;
+        string Name;
+        string Estado;
+        string Description;
+
+
+
     }
 }

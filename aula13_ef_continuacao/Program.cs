@@ -13,3 +13,6 @@ Console.WriteLine("Inserting a new person");
 var person = new Person() { Id = 1, Name = "João da Silva", phoneNumber ="4454545454545" };
 db.Add(person);
 db.SaveChanges();
+var product = new Product() { Id = 221, Description = "JimleyKimbley" };
+db.Add(product);
+db.SaveChanges();
