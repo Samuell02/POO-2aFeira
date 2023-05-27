@@ -10,6 +10,6 @@ Console.WriteLine($"Database path: {db.DbPath}.");
 
 // Create
 Console.WriteLine("Inserting a new person");
-var person = new Person() { Id = 1, Name = "João da Silva", phoneNumber ="4454545454545" };
-db.Add(person);
+var perso2 = new Person() { Id = 1, Name = "João da siis", phoneNumber ="4454545454545" };
+db.Add(perso2);
 db.SaveChanges();

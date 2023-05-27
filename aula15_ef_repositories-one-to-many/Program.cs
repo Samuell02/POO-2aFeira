@@ -59,3 +59,11 @@ void GetAllPeople()
         Console.WriteLine($"Id: {item.Id} | Nome: {item.Name} | Fone: {item.phoneNumber} | Cidade: { city }");
     }
 }
+
+IBaseRepository _baseRepo = new IBaseRepository();
+var supplier = new Supplier() 
+     {   Name = "Coca-cola", 
+         Address ="Rua Jorge Menedez",
+        phoneNumber = "2312312321",
+     };
+_baseRepo.Save(supplier);

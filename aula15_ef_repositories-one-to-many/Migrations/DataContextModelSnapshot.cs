@@ -29,6 +29,9 @@ namespace aula12_ef_test.Migrations
                     b.Property<string>("Name")
                         .HasColumnType("TEXT");
 
+                    b.Property<int>("ZipCode")
+                        .HasColumnType("INTEGER");
+
                     b.Property<string>("phoneNumber")
                         .HasColumnType("TEXT");
 
@@ -48,9 +51,42 @@ namespace aula12_ef_test.Migrations
                     b.Property<string>("Description")
                         .HasColumnType("TEXT");
 
+                    b.Property<string>("name")
+                        .HasColumnType("TEXT");
+
+                    b.Property<int?>("personId")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int?>("supplierId")
+                        .HasColumnType("INTEGER");
+
                     b.HasKey("Id");
 
+                    b.HasIndex("personId");
+
+                    b.HasIndex("supplierId");
+
                     b.ToTable("Products");
+                });
+
+            modelBuilder.Entity("aula12_ef_test.Domain.Supplier", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("Address")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("TEXT");
+
+                    b.Property<int>("phoneNumber")
+                        .HasColumnType("INTEGER");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Suppliers");
                 });
 
             modelBuilder.Entity("aula14_ef_repositories.Domain.City", b =>
@@ -74,6 +110,21 @@ namespace aula12_ef_test.Migrations
                         .HasForeignKey("CityId");
 
                     b.Navigation("City");
+                });
+
+            modelBuilder.Entity("aula12_ef_test.Domain.Product", b =>
+                {
+                    b.HasOne("aula12_ef_test.Domain.Person", "person")
+                        .WithMany()
+                        .HasForeignKey("personId");
+
+                    b.HasOne("aula12_ef_test.Domain.Supplier", "supplier")
+                        .WithMany()
+                        .HasForeignKey("supplierId");
+
+                    b.Navigation("person");
+
+                    b.Navigation("supplier");
                 });
 
             modelBuilder.Entity("aula14_ef_repositories.Domain.City", b =>

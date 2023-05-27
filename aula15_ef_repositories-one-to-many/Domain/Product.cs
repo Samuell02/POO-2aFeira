@@ -9,5 +9,10 @@ namespace aula12_ef_test.Domain
     {
         public int Id { get; set; }
         public string Description { get; set; }
+
+        public string name { get; set; }
+        
+        public Person person { get; set; }
+        public Supplier supplier  { get; set; }
     }
 }

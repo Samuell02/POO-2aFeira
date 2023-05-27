@@ -7,7 +7,8 @@ namespace aula12_ef_test.Domain
 {
     public class Person
     {
-        public int Id { get; set; }
+         public int Id { get; set; }
+        public int ZipCode { get; set; }
         public string Name { get; set; }
         public string phoneNumber { get; set; }
     }

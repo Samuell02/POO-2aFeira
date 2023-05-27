@@ -120,3 +120,11 @@
 /Users/cassiohcosta/Documents/wintrab/Ulbra/POO/POO-2aFeira/aula12_ef_test/obj/Debug/net7.0/aula12_ef_test.pdb
 /Users/cassiohcosta/Documents/wintrab/Ulbra/POO/POO-2aFeira/aula12_ef_test/obj/Debug/net7.0/aula12_ef_test.genruntimeconfig.cache
 /Users/cassiohcosta/Documents/wintrab/Ulbra/POO/POO-2aFeira/aula12_ef_test/obj/Debug/net7.0/ref/aula12_ef_test.dll
+C:\Users\User\Documents\NewREpo\POO-2aFeira\aula13_ef_continuacao\obj\Debug\net7.0\aula12_ef_test.csproj.AssemblyReference.cache
+C:\Users\User\Documents\NewREpo\POO-2aFeira\aula13_ef_continuacao\obj\Debug\net7.0\aula12_ef_test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\NewREpo\POO-2aFeira\aula13_ef_continuacao\obj\Debug\net7.0\aula12_ef_test.AssemblyInfoInputs.cache
+C:\Users\User\Documents\NewREpo\POO-2aFeira\aula13_ef_continuacao\obj\Debug\net7.0\aula12_ef_test.AssemblyInfo.cs
+C:\Users\User\Documents\NewREpo\POO-2aFeira\aula13_ef_continuacao\obj\Debug\net7.0\aula12_ef_test.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\NewREpo\POO-2aFeira\aula13_ef_continuacao\obj\Debug\net7.0\aula12_ef_test.dll
+C:\Users\User\Documents\NewREpo\POO-2aFeira\aula13_ef_continuacao\obj\Debug\net7.0\refint\aula12_ef_test.dll
+C:\Users\User\Documents\NewREpo\POO-2aFeira\aula13_ef_continuacao\obj\Debug\net7.0\aula12_ef_test.pdb

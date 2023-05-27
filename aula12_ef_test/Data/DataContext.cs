@@ -19,6 +19,8 @@ namespace aula12_ef_test.Data
 
         public DbSet<Person> People { get; set; }
         public DbSet<Product> Products { get; set; }
+        public DbSet<Supplier> Suppliers { get; set; }
+
 
     }
 }
