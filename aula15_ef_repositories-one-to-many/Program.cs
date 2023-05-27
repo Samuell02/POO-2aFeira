@@ -60,3 +60,9 @@ void GetAllPeople()
     }
 }
 
+var person = new Person() 
+     {   Name = "Sheilaaaaa", 
+        phoneNumber ="345522666",
+        Id = 2,
+     };
+ _personRepository.Save(person);
