@@ -44,3 +44,10 @@ void GetAllPeople()
         Console.WriteLine($"Id: {item.Id} | Nome: {item.Name} | Fone: {item.phoneNumber}");
     }
 }
+
+// Create
+Console.WriteLine("Inserting a new person");
+var person2 = new Person() { Name = "Gustavoooooo", phoneNumber ="5551889988998" };
+
+
+_personRepository.Save(person2);
