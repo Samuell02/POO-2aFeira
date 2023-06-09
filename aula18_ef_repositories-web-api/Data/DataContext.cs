@@ -22,5 +22,8 @@ namespace aula12_ef_test.Data
         public DbSet<Product> Products { get; set; }
         public DbSet<City> Cities { get; set; }
 
+         public DbSet<Supplier> Suppliers { get; set; }
+        public DbSet<Purchase> Purchases { get; set; }
+
     }
 }

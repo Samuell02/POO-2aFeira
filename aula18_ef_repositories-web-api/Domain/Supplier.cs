@@ -5,11 +5,14 @@ using System.Threading.Tasks;
 
 namespace aula12_ef_test.Domain
 {
-    public class Product
+    public class Supplier
     {
         public int Id { get; set; }
-        public string Description { get; set; }
-        public Supplier supplier { get; set; }
+        string Name { get; set; }
+        string Estado { get; set; }
+        string Description { get; set; }
+
+
 
     }
 }
