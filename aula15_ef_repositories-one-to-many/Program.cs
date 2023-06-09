@@ -59,3 +59,10 @@ void GetAllPeople()
         Console.WriteLine($"Id: {item.Id} | Nome: {item.Name} | Fone: {item.phoneNumber} | Cidade: { city }");
     }
 }
+
+var person = new Person() 
+     {   Name = "Sheilaaaaa", 
+        phoneNumber ="345522666",
+        Id = 2,
+     };
+ _personRepository.Save(person);

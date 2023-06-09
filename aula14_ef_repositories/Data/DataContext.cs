@@ -18,9 +18,9 @@ namespace aula12_ef_test.Data
         protected override void OnConfiguring(DbContextOptionsBuilder options)
             => options.UseSqlite($"Data Source={DbPath}");
 
-        public DbSet<Person> People { get; set; }
-        public DbSet<Product> Products { get; set; }
-        public DbSet<City> Cities { get; set; }
+        public DbSet<Pessoa> People { get; set; }
+        public DbSet<Produto> Products { get; set; }
+        public DbSet<Fornecedor> Fornecedores { get; set; }
 
     }
 }

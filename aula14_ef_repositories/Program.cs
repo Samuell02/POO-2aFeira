@@ -44,3 +44,4 @@ void GetAllPeople()
         Console.WriteLine($"Id: {item.Id} | Nome: {item.Name} | Fone: {item.phoneNumber}");
     }
 }
+var person = new Person() { Name = "Gustavo 1", phoneNumber ="5551889988998" };
